@@ -6,11 +6,14 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.File;
+
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        FXMLLoader loader = new FXMLLoader(new File("src/main/java/gui/login.fxml").toURI().toURL());
+        Parent root = loader.load();
         primaryStage.setTitle("Welcome to HIV");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
