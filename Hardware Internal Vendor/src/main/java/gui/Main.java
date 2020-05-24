@@ -7,14 +7,13 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.File;
-import java.net.URL;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        URL url = new File("src/main/jav/resources/login.fxml").toURI().toURL();
-        Parent root = FXMLLoader.load(url);
+        FXMLLoader loader = new FXMLLoader(new File("src/main/java/gui/login.fxml").toURI().toURL());
+        Parent root = loader.load();
         primaryStage.setTitle("Welcome to HIV");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
