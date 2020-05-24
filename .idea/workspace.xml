@@ -45,15 +45,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added log in screen, implemented 2 buttons&#10;Story id: HIV-2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="293" key="FileChooserDialogImpl" timestamp="1590331106267">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1590326764666">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590326764666" />
-    <state x="788" y="293" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1590331106267" />
-    <state x="365" y="192" key="new project wizard" timestamp="1590331109321">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="342" y="180" key="new project wizard" timestamp="1590326765843">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590326765843" />
-    <state x="365" y="192" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1590331109321" />
   </component>
 </project>
