@@ -12,8 +12,9 @@ public abstract class Database {
     {
         try{
             db = DriverManager.getConnection("jdbc:sqlite:hivdb.sqlite");
+            statement = db.createStatement();
         } catch (Exception e){
-            System.out.println("Exception: " + e.getMessage());
+            printException(e);
         }
     }
 
@@ -22,7 +23,11 @@ public abstract class Database {
         try {
             db.close();
         } catch (Exception e) {
-            System.out.println("Exception :" + e.getMessage());
+            printException(e);
         }
+    }
+
+    public static void printException(Exception e) {
+        System.out.println("Exception: " + e.getMessage());
     }
 }
