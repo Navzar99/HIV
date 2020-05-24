@@ -17,8 +17,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Hardware Internal Vendor" />
-        <module name="HIV" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Hardware Internal Vendor" target="openjdk-14" />
+      <module name="HIV" target="openjdk-14" />
+    </bytecodeTargetLevel>
   </component>
 </project>
