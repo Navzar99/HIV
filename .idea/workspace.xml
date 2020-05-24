@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae4b39e-d6fd-4a67-bc56-128074216046" name="Default Changelist" comment="" />
+    <list default="true" id="f3bee35c-acc6-48e2-b4c7-31fc0856cae5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cM7XfN6BMq8530KOEyt8wjKk8C" />
@@ -31,6 +36,13 @@
       <updated>1590326649565</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added log in screen, implemented 2 buttons&#10;Story id: HIV-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added log in screen, implemented 2 buttons&#10;Story id: HIV-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1590326764666">
